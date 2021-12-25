@@ -1,8 +1,15 @@
-﻿@{
-    ViewData["Title"] = "Home Page";
+﻿@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+@{
 }
 
-<div class="text-center">
-    <h1 class="display-4">Welcome</h1>
-    <p>Learn about <a href="https://docs.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p>
+<div class="head">
+    <img class="home-image" src="/images/12.png" />
+    <h4 id="text">WELCOME TO YAODA'S E-SHOP. DON'T WAIT TO GET INTO OUR BRAND NEW COLLECTION!</h4>
+</div>
+
+<div class="button">
+    <a class="home-button-link" asp-controller="Sneakers" asp-action="Index"><button class="button-design" type="button"><h3>Explore Our Products</h3></button></a>
+    <a class="home-button-link" asp-controller="" asp-action=""><button class="button-design" type="button"><h3>Register Now</h3></button></a>
 </div>

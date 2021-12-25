@@ -1,0 +1,50 @@
+﻿
+/*Home page design*/
+.home-image {
+    cursor: pointer;
+    transition: all 0.5s;
+    width: auto;
+    margin-left: 20px;
+    height: 60vh;
+    background-color:aqua;
+}
+
+ .home-image:hover {
+        transform: rotate(20deg)
+    }
+
+.button {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.home-button-link {
+    width: 30%;
+}
+
+.button-design {
+    color: white;
+    width: 100%;
+    font-size: 15px;
+    border: 0;
+    border-radius: 20px;
+    outline: none;
+    margin: 15px 20px 0;
+    background: #5072A7;
+    cursor: pointer;
+    transition: all 0.5s;
+}
+
+    .button-design:hover {
+        transform: scale(1.1,1.1);
+        -webkit-transform: scale(1.1,1.1);
+        -ms-transform: scale(1.1,1.1);
+        -moz-transform: scale(1.1,1.1);
+        background: #6699CC;
+    }
+ .head
+ {
+        background-color: cornflowerblue;
+        text-align: center;
+ }
